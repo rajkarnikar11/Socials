@@ -33,14 +33,14 @@ const Routing = ()=>{
   },[])
   return(
     <Routes>
-    <Route exact path="/" element={<Home />} />
-    <Route exact path="/profile" element={<Profile />} />
-    <Route path="/signup" element={<Signup />} />
-    <Route path="/login" element={<Login />} />
-    <Route path="/createpost" element={<CreatePost />} />
-    <Route path="/profile/:userid" element={<UserProfile />} />
-    <Route path="/myfollowerspost" element={<SubscribedUserPosts />} />
-  </Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/profile" element={<Profile />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/createpost" element={<CreatePost />} />
+      <Route path="/profile/:userid" element={<UserProfile />} />
+      <Route path="/myfollowerspost" element={<SubscribedUserPosts />} />
+    </Routes>
   )
 }
 
